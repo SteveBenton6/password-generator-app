@@ -33,4 +33,5 @@
 5. Array
 6. Math.random
 7. line-spacing
-8. flex-box
+8. Flexbox
+9. Horizontal Rule

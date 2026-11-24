@@ -27,6 +27,7 @@ p {
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
 }
 
 #password-btn {
