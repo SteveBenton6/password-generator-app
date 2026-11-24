@@ -32,3 +32,5 @@
 4. textContent
 5. Array
 6. Math.random
+7. line-spacing
+8. flex-box

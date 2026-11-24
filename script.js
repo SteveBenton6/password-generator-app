@@ -98,7 +98,14 @@ let passTwoEl = document.getElementById("passTwo-el");
 let passwordOne = "random_password1";
 let passwordTwo = "random_password2";
 
-showPasswords();
+startBoard();
+
+function startBoard() {
+  passOneEl.style.color = "#273549";
+  passTwoEl.style.color = "#273549";
+  passOneEl.textContent = passwordOne;
+  passTwoEl.textContent = passwordTwo;
+}
 
 function createPass() {
   let newPass = "";
@@ -111,13 +118,13 @@ function createPass() {
 
 function password() {
   passwordOne = createPass();
-  console.log(passwordOne);
   passwordTwo = createPass();
-  console.log("Button Pushed");
   showPasswords();
 }
 
 function showPasswords() {
+  passOneEl.style.color = "#ecfdf5";
+  passTwoEl.style.color = "#ecfdf5";
   passOneEl.textContent = passwordOne;
   passTwoEl.textContent = passwordTwo;
 }
